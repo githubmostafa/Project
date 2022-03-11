@@ -1,0 +1,15 @@
+def max_tow_Numbers (Num1, Num2):
+  if Num1 > Num2:
+    return(Num1 )
+  else:
+        return(Num2)
+def max_three_Numbers(Num1, Num2, Num3):
+    M=max_tow_Numbers(Num1, Num2 )
+    Fin=max_tow_Numbers(m, Num3 )
+    return(fin)
+Num1 =input('plez enter 1st number :')
+NUM2 =input ('plez enter 2nd number :')
+Num3 =input ('plez enter 3rd Number :')
+res = max_three_Numbers (Num1, Num2 , Num3 )
+print('max=', res )
+    # TODO: write code...
